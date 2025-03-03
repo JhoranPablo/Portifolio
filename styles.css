@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    
+}
+
+section{
+    display: flex;
+    justify-content: right;
+    margin-right: 50px;
+    font-size: 20px;
+
+    
+    
+}
+
+
+
+.h1-menu{
+    max-height: 2px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+
+}
+
+a{
+    padding:10px;
+}
+
+span{
+    background-color: blue;
+    color: white;
+}
+
+.a-home{
+    color: blue;
+    border-bottom: solid 1px blue;
+}
+
+.a-contato{
+    background-color: blue;
+    color: white;
+    width: 130px;
+    text-align: center;
+    height: 50px;
+}
+
+.img-main{
+    width:500px;
+    max-width: 300px;
+}
+
+.container-img{
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+    
+}
+
+button{
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main{
+    margin-top: 140px;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.h2-main{
+    font-size: 34px;
+}
+
+  img{
+   width: 400px;
+   
+    
+  }
+
+ .sobre{
+    margin-top: 300px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+  
+ }
+
+.h2-sobre{
+    font-size: 40px;
+    
+}
+
+.p-sobre{
+
+    font-size: 30px;
+}
+
+.h2-sobre{
+    background-color: blue;
+    margin-top: 400px;
+    color: white;
+    padding-left: 30px;
+    height: 100px;
+    padding-top: 20px;
+}
+  
+.skils{
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.h1-skils{
+    background-color: blue;
+    margin-top: 400px;
+    color: white;
+    padding-left: 30px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+img{
+    width: 50px;
+}
+
+.h1-trabalhos{
+    background-color: blue;
+    margin-top: 400px;
+    color: white;
+    padding-left: 30px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.p-projects{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+form{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+input{
+    width: 200px;
+    height: 80px;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.p-form{
+    font-size: 30px;
+    margin-left: 30px;
+
+}
+
+
+textarea{
+    margin-top: 30px;
+    margin-left: 30px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="portifolio">
+      <h1 id="seção0" class="h1-menu"><span>Dev</span>fólio</h1>
+      <section>
+        <a href="#seção0" class="a-home">Home</a>
+        <a href="#seção1">Sobre</a>
+        <a href="#seção2">Habilidades</a>
+        <a href="#seção3">Trabalhos</a>
+        <a href="#seção4" class="a-contato">Contato</a>
+      </section>
+      <main>
+        <h2 class="h2-main">
+          Oi! Sou o <span class="jhoran-span">Jhoran Pablo</span>
+        </h2>
+        <p>
+          Front-End Developer e estudante de <br />
+          Engenharia de software
+        </p>
+        <button>Contatar</button>
+      </main>
+      <h2 id="seção1" class="h2-sobre">Sobre</h2>
+      <div class="sobre">
+        <p class="p-sobre">
+          Sou o Jhoran Pablo!Tenho 17 anos e sou estudante de <br />
+          Engenharia de software na Estácio
+          <br />
+          <br />
+          Sou uma pessoa focada diante aos meus objetivos, <br />
+          e em busca de aprender e melhorar os meus conhecimentos.
+        </p>
+      </div>
+
+      <div class="skils">
+        <h1 id="seção2" class="h1-skils">Habilidades</h1>
+        <img src="./assets/html.png" />
+        <img src="./assets/css.png" />
+        <img src="./assets/js.png" />
+        <img src="./assets/node.png" />
+        <img src="./assets/git.png" />
+        <img src="./assets/github.png" />
+      </div>
+      <div class="projects">
+        <h1 id="seção3" class="h1-trabalhos">Trabalhos</h1>
+        <p class="p-projects">Todos Meus Projetos Disponiveis no meu GitHub 
+        </p>
+       <a href="https://github.com/JhoranPablo"> <img  src="./assets/github.png"> Clique no Icone</a>
+      </div>
+
+      <div class="contact-projets"></div>
+      <div class="form">
+        <form id="seção4" action="https://formsubmit.co/jhoranpablodev@gmail.com" method="POST">
+          <p class="p-form"> Estou disponivel a realizar e ajudar nos projetos</p>
+          <input type="text" name="name" placeholder="Nome" required    />
+            <input type="email" name="email" placeholder="Email" required>
+
+            <textarea cols="30" rows="10" name="message" placeholder="Do que se trata seu projeto"></textarea>
+            <button type="submit">Enviar</button>
+
+          <input type="hidden" name='_subject' value="Novo Contato">
+          <input type="text" name="_honey" style="display: none;">
+          <input type="hidden" name="_captcha" value="false">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

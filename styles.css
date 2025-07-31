@@ -185,3 +185,17 @@ textarea{
     margin-top: 30px;
     margin-left: 30px;
 }
+
+.button-contact{
+    display: inline-block; /* Isso permite que margin funcione */
+    margin-top: 20px;       /* Aqui você define o espaçamento */
+    line-height: 50px;      /* Alinha o texto verticalmente se quiser */
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    
+}
+
+.button-submit{
+    margin-left: 30px;
+}
